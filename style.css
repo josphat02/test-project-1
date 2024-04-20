@@ -1,0 +1,52 @@
+
+/* styles.css */
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #df8c0f71;
+    font-family: Arial, sans-serif;
+    
+}
+.container{
+    text-align: center;
+    padding: 20px;
+    background: #538bac;
+    border: radius 8px;
+    box-shadow:0 4px 8px rgba(red, green, blue, alpha);
+
+}
+.hidden{
+    display:none;
+}
+#userForm {
+    margin:0;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #538bac;
+    padding: 20;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(red, green, blue, alpha);
+}
+
+#greetingMessage {
+    font-size: 1.2em;
+    background-color: #8d0f0f;
+
+}
+h1 {
+    position: absolute;
+    top: 50px;
+    left: 140px;
+    transform: translate(-50, -50);
+    margin:0;
+    padding:20px;
+    background-color: #f0f;
+    border:1px solid #ddd;
+    text-align: center;
+
+}
